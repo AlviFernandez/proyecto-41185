@@ -1,0 +1,470 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    background-color: black;
+    color: white;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.header__contacto {
+    background-color: black; 
+}
+
+
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+
+.nav__lista {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 100%;
+}
+
+.nav__item {
+    font-size: 1.5rem;
+    margin-left: 16px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.nav__item a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav__itemX{
+    display: none;
+}
+
+.menu__icono {
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    display: none;
+}
+
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+p {
+    text-align: center;
+    color: black;
+}
+
+
+.img__header {
+    border-radius: 200px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: red solid 2px;
+}
+
+.img__main {
+    border-radius: 16px;
+    box-shadow: 4px 5px 6px;
+    width: 200px;
+    height: 300px;
+    margin: 25px;
+    border: black solid;
+}
+
+.img__main:hover {
+    transform: scale(1.1);
+}
+
+.zapatillasVarias {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.boton__main {
+    border-radius: black solid;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.form__contacto {
+    border: black solid 2px;
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+    width: 50%;
+}
+
+.title__tienda{
+    text-align: center;
+}
+
+.imagen__footer {
+    width: 25px;
+    height: 30px;
+}
+
+.main__contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta__absolute2 {
+    background-color: rgb(255, 198, 43);
+    color: white;
+    margin: 1rem;
+    padding: 1rem 1rem;
+    border-radius: 16px;
+    position: absolute;
+    top: 29rem;
+    right: 14.5rem;
+}
+
+
+
+.tarjeta__tiendabsolute3 {
+    background-color: rgb(3, 246, 48);
+    color: white;
+    margin: 1rem;
+    padding: 1rem 1rem;
+    border-radius: 16px;
+    position: absolute;
+    top: 29rem;
+    right: 14.5rem;
+}
+
+.tarjeta__absolute1 {
+    background-color: rgb(96, 246, 3);
+    color: white;
+    margin: 1rem;
+    padding: 1rem 1rem;
+    border-radius: 16px;
+    position: absolute;
+    top:27rem;
+    right: 75.5rem;
+}
+
+.tarjeta__absolute2 {
+    background-color: rgb(96, 246, 3);
+    color: white;
+    margin: 1rem;
+    padding: 1rem 1rem;
+    border-radius: 16px;
+    position: absolute;
+    top:27rem;
+    right: 105.5rem;
+}
+
+.tarjeta__absolute3 {
+    background-color: rgb(96, 246, 3);
+    color: white;
+    margin: 1rem;
+    padding: 1rem 1rem;
+    border-radius: 16px;
+    position: absolute;
+    top:27rem;
+    right: 45.5rem;
+}
+
+.tarjeta__absolute4 {
+    background-color: rgb(96, 246, 3);
+    color: white;
+    margin: 1rem;
+    padding: 1rem 1rem;
+    border-radius: 16px;
+    position: absolute;
+    top:27rem;
+    right: 15.5rem;
+}
+
+.tarjeta__noticiaabsolute1 {
+    background-color: red;
+    color: white;
+    margin: 1rem;
+    padding: 1rem 1rem;
+    border-radius: 16px;
+    position: absolute;
+    top: 76rem;
+    right: 57.5rem;
+}
+
+.imagen__empresa {
+    border-radius: 200px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: red solid 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.h1__zapatillas {
+    margin: 20px;
+    justify-content: center;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.p__zapatillas {
+    font-size: 25px;
+}
+
+.div__zapatillasVarias {
+    border-top: red solid;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.zapatillasVarias1 {
+    display: flex;
+    justify-content: center;
+}
+
+.div__noticias {
+    display: flex;
+    justify-content: center;
+}
+
+/* Grid */
+.grid__tienda{
+    display: grid;
+    grid-template-columns:  repeat(4, 1fr);
+    grid-template-rows: repeat(2, 2fr);
+}
+
+.gridTienda__hijo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around	;
+    color: rgb(160, 158, 158);
+    text-align: center;
+    background-color: black;
+    border-top: red solid 2px;
+    height: 15vh;
+    margin-top: 100px;
+}
+
+.footer__item {
+    color: white;
+    text-align: center;
+}
+
+.hr {
+    margin: 50px;
+    color: red;
+}
+
+
+
+
+/* Mobile */
+@media screen and (max-width:599px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+
+    /* Header Mobile */
+    .header {
+        background-color: black;
+        color: white;
+        top: 0;
+        left: 50px;
+        width: 360px;
+        right: 200px;
+        z-index: 100%;
+    }
+
+    .header__icono1 {
+        font-size: 32px;
+        color: white;
+        text-decoration: none;
+        display: block;
+    }
+
+    h1 {
+        text-align: center;
+        color: red;
+    }
+
+
+    /* Footer Mobile */
+    footer {
+        width: 360px;
+    }
+    
+    /* Nav Mobile */
+    .nav {
+        display: none;
+        background-color: rgb(110, 0, 0);
+        position: fixed;
+        flex-direction: column;
+        top: 0;
+        left: 0;
+        z-index: 1000000;
+        width: 100vw;
+        height: 100vh;
+        display: none;
+    }
+
+    .nav__lista {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        gap: 1rem;
+        height: 100%;
+    }
+
+    .nav__item a{
+        color: white;
+        font-size: 3rem;
+        text-decoration: none;
+    }
+
+
+    .nav__itemX{
+        display: flex;
+        width: 100vw;
+    }
+
+    .nav__itemX a{
+        color: white;
+        font-size: 3rem;
+        text-decoration: none;
+        border: 2px solid white;
+        margin-top: 1rem;
+        padding: 10px;
+        border-radius: 50%;
+        align-content: flex-end;
+        justify-content:flex-end ;
+    }
+
+    .nav__li {
+        display: flex;
+        flex-direction: row;
+        width: 95%;
+        justify-content: flex-end;
+    }
+
+    .nav:target{
+        display: block;
+    }
+
+    .div__zapatillasVarias {
+        flex-direction: column;
+    }
+
+    .menu__icono {
+        display: block;
+    }
+
+    .div__zapatillasVarias{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tarjeta__absolute1 {
+        background-color: rgb(96, 246, 3);
+        color: white;
+        margin: 1rem;
+        padding: 1rem 1rem;
+        border-radius: 16px;
+        position: absolute;
+        top:27rem;
+        right: 10.5rem;
+    }
+    
+    .tarjeta__absolute2 {
+        background-color: rgb(96, 246, 3);
+        color: white;
+        margin: 1rem;
+        padding: 1rem 1rem;
+        border-radius: 16px;
+        position: absolute;
+        top:50rem;
+        right: 10.5rem;
+    }
+    
+    .tarjeta__absolute3 {
+        background-color: rgb(96, 246, 3);
+        color: white;
+        margin: 1rem;
+        padding: 1rem 1rem;
+        border-radius: 16px;
+        position: absolute;
+        top: 73rem;
+        right: 10.5rem;
+    }
+    
+    .tarjeta__absolute4 {
+        background-color: rgb(96, 246, 3);
+        color: white;
+        margin: 1rem;
+        padding: 1rem 1rem;
+        border-radius: 16px;
+        position: absolute;
+        top:96.5rem;
+        right: 11rem;
+    }
+    
+    .tarjeta__noticiaabsolute1 {
+        background-color: red;
+        color: white;
+        margin: 1rem;
+        padding: 1rem 1rem;
+        border-radius: 16px;
+        position: absolute;
+        top: 122.5rem;
+        right: 8.5rem;
+    }
+
+
+    /* Grid Mobile */
+    .grid__tienda {
+    display: grid;
+    grid-template-columns:  repeat(1, 1fr);
+    grid-template-rows: repeat(2, 2fr);
+    }
+}
