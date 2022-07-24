@@ -280,7 +280,7 @@ p {
     background-color: black;
     border-top: red solid 2px;
     height: 15vh;
-    margin-top: 100px;
+    margin-top: 140px;
 }
 
 .footer__item {
@@ -466,5 +466,18 @@ p {
     display: grid;
     grid-template-columns:  repeat(1, 1fr);
     grid-template-rows: repeat(2, 2fr);
+    }
+    
+
+    .form__contacto {
+    border: black solid 2px;
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+    width: 60%;
+    }
+
+    .footer__contacto {
+        margin-top: 60%;
     }
 }
