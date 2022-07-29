@@ -173,47 +173,23 @@ p {
 }
 
 .tarjeta__absolute2 {
-    background-color: rgb(96, 246, 3);
+    background-color: black;
     color: white;
     margin: 1rem;
     padding: 1rem 1rem;
     border-radius: 16px;
     position: absolute;
-    top:27rem;
+    top: 27rem;
     right: 105.5rem;
 }
 
-.tarjeta__absolute3 {
-    background-color: rgb(96, 246, 3);
-    color: white;
-    margin: 1rem;
-    padding: 1rem 1rem;
-    border-radius: 16px;
-    position: absolute;
-    top:27rem;
-    right: 45.5rem;
-}
-
-.tarjeta__absolute4 {
-    background-color: rgb(96, 246, 3);
-    color: white;
-    margin: 1rem;
-    padding: 1rem 1rem;
-    border-radius: 16px;
-    position: absolute;
-    top:27rem;
-    right: 15.5rem;
-}
-
-.tarjeta__ofertas {
-    background-color: red;
-    color: white;
-    margin: 1rem;
-    padding: 1rem 1rem;
-    border-radius: 16px;
-    position: absolute;
-    top: 76rem;
-    right: 57.5rem;
+.button__new {
+   background-color: black;
+   color: white;
+   margin: 1rem;
+   padding: 1rem 1rem;
+   border-radius: 16px;
+   position: absolute;
 }
 
 .imagen__empresa {
@@ -251,6 +227,14 @@ p {
 }
 
 .div__noticias {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner__noticias {
+    width: auto; 
+    margin: auto;
     display: flex;
     justify-content: center;
 }
