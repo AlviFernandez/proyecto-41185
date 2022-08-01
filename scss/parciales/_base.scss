@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+p {
+    text-align: center;
+    color: black;
+}
+
+.title__tienda{
+    text-align: center;
+}
+
+
+.div__noticias {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Cards */
+.card {
+    width: auto; 
+    margin: auto;
+}
+
+.hr {
+    margin: 50px;
+    color: red;
+}

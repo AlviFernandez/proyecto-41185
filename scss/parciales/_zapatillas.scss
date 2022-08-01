@@ -1,0 +1,29 @@
+.zapatillasVarias {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.h1__zapatillas {
+    margin: 20px;
+    justify-content: center;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.p__zapatillas {
+    font-size: 25px;
+}
+
+.div__zapatillasVarias {
+    border-top: red solid;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.zapatillasVarias1 {
+    display: flex;
+    justify-content: center;
+}

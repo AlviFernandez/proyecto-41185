@@ -1,0 +1,35 @@
+.img__main {
+    border-radius: 16px;
+    box-shadow: 4px 5px 6px;
+    width: 200px;
+    height: 300px;
+    margin: 25px;
+    border: black solid;
+}
+
+.img__main:hover {
+    transform: scale(1.1);
+}
+
+.imagen__empresa {
+    border-radius: 200px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: red solid 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner__noticias {
+    height: 25vh;
+    box-shadow:2px 2px 2px 2px;
+    width: auto; 
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.banner__noticias:hover {
+    transform: scale(1.1);
+}

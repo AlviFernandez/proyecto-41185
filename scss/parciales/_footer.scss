@@ -1,0 +1,27 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around	;
+    color: rgb(160, 158, 158);
+    text-align: center;
+    background-color: black;
+    border-top: red solid 2px;
+    height: 18vh;
+    margin-top: 300px;
+}
+
+.footer__item {
+    color: white;
+    text-align: center;
+}
+
+.imagen__footer {
+    width: 25px;
+    height: 30px;
+}
+
+.hr {
+    margin: 50px;
+    color: red;
+}

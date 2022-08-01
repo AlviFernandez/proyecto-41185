@@ -1,3 +1,13 @@
-.alvaro {
-    color: navy;
-}
+@import "./parciales/_variables.scss"; // SIempre al inicio para poder usar variables
+@import "./parciales/_base.scss";
+@import "./parciales/_header.scss";
+@import "./parciales/_footer.scss";
+@import "./parciales/_contacto.scss";
+@import "./parciales/_zapatillas.scss";
+@import "./parciales/_tarjeta.scss";
+@import "./parciales/_media-querys.scss";
+@import "./parciales/_imagenes.scss";
+@import "./parciales/_grid.scss";
+@import "./parciales/_button.scss";
+@import "./parciales/_carousel.scss";
+@import "./parciales/_nav.scss";
