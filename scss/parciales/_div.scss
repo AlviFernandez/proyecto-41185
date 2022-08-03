@@ -3,3 +3,11 @@
     display: flex;
     justify-content: center;
 }
+
+.div__zapatillasVarias {
+    border-top: red solid;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 5px;
+}
