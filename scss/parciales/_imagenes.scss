@@ -1,14 +1,17 @@
-.img__main {
-    border-radius: 16px;
-    box-shadow: 4px 5px 6px;
-    width: 200px;
-    height: 300px;
-    margin: 25px;
-    border: black solid;
-    &:hover { 
-     transform: scale(1.1);
+.imagen {
+    .img__main {
+        border-radius: 16px;
+        box-shadow: 4px 5px 6px;
+        width: 200px;
+        height: 300px;
+        margin: 25px;
+        border: black solid;
+        &:hover { 
+         transform: scale(1.1);
+        }
     }
 }
+
 
 
 .imagen__empresa {
