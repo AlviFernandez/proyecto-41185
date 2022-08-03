@@ -429,3 +429,7 @@ p {
   width: auto;
   margin: auto;
 }
+
+.card:hover {
+  transform: scale(1.1);
+}

@@ -1,13 +1,15 @@
 .imagen {
+    
     .img__main {
-        border-radius: 16px;
+        border-radius:16px;
         box-shadow: 4px 5px 6px;
         width: 200px;
         height: 300px;
         margin: 25px;
         border: black solid;
         
-        &:focus{
+        
+        &:focus {
             background-color: rgb(255, 255, 255);
             opacity: 0.85;
         }
@@ -17,8 +19,6 @@
         }
     }
 }
-
-
 
 .imagen__empresa {
     border-radius: 200px;
