@@ -5,11 +5,11 @@
     height: 300px;
     margin: 25px;
     border: black solid;
+    &:hover { 
+     transform: scale(1.1);
+    }
 }
 
-.img__main:hover {
-    transform: scale(1.1);
-}
 
 .imagen__empresa {
     border-radius: 200px;
