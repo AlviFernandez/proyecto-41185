@@ -6,6 +6,12 @@
         height: 300px;
         margin: 25px;
         border: black solid;
+        
+        &:focus{
+            background-color: rgb(255, 255, 255);
+            opacity: 0.85;
+        }
+
         &:hover { 
          transform: scale(1.1);
         }
@@ -31,8 +37,8 @@
     margin: auto;
     display: flex;
     justify-content: center;
-}
-
-.banner__noticias:hover {
-    transform: scale(1.1);
+    
+    &:hover{
+        transform: scale(1.1);
+    }
 }

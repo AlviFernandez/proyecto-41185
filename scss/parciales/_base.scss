@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
 h1 {
     text-align: center;
     color: red;
@@ -12,23 +20,6 @@ h1 {
 p {
     text-align: center;
     color: black;
-}
-
-.title__tienda{
-    text-align: center;
-}
-
-
-.div__noticias {
-    margin: 50px;
-    display: flex;
-    justify-content: center;
-}
-
-/* Cards */
-.card {
-    width: auto; 
-    margin: auto;
 }
 
 .hr {
