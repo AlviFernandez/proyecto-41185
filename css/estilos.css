@@ -151,7 +151,7 @@ p {
     color: white;
     top: 0;
     left: 50px;
-    width: 360px;
+    width: 350px;
     right: 200px;
     z-index: 100%;
   }
@@ -167,7 +167,21 @@ p {
   }
   /* Footer Mobile */
   footer {
-    width: 360px;
+    width: 350px;
+  }
+  .img__main {
+    display: flex;
+    flex-direction: column;
+  }
+  .imagen__empresa {
+    border-radius: 200px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: red solid 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   /* Nav Mobile */
   .nav {
@@ -178,8 +192,8 @@ p {
     top: 0;
     left: 0;
     z-index: 1000000;
-    width: 100vw;
-    height: 100vh;
+    width: 110vw;
+    height: 110vh;
     display: none;
   }
   .nav__lista {
@@ -220,14 +234,14 @@ p {
     display: block;
   }
   .div__zapatillasVarias {
+    display: flex;
     flex-direction: column;
+  }
+  .div__contacto {
+    margin: 10px;
   }
   .menu__icono {
     display: block;
-  }
-  .div__zapatillasVarias {
-    display: flex;
-    flex-direction: column;
   }
   .tarjeta__absolute1 {
     background-color: #60f603;
@@ -279,6 +293,14 @@ p {
     top: 122.5rem;
     right: 8.5rem;
   }
+  .banner__noticias {
+    height: 2vh;
+    box-shadow: 2px 2px 2px 2px;
+    width: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
   /* Grid Mobile */
   .grid__tienda {
     display: grid;
@@ -290,14 +312,14 @@ p {
     text-align: center;
     margin: 30px;
     padding: 20px;
-    width: 60%;
+    width: 70%;
   }
   .footer__contacto {
     margin-top: 60%;
   }
 }
 
-.imagen .img__main {
+.img__main {
   border-radius: 16px;
   box-shadow: 4px 5px 6px;
   width: 200px;
@@ -306,12 +328,12 @@ p {
   border: black solid;
 }
 
-.imagen .img__main:focus {
+.img__main:focus {
   background-color: white;
   opacity: 0.85;
 }
 
-.imagen .img__main:hover {
+.img__main:hover {
   transform: scale(1.1);
 }
 
@@ -322,13 +344,14 @@ p {
   margin: 10px;
   border: red solid 2px;
   display: flex;
+  direction: row;
   justify-content: center;
 }
 
 .banner__noticias {
   height: 25vh;
   box-shadow: 2px 2px 2px 2px;
-  width: auto;
+  width: 400px;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -336,20 +359,6 @@ p {
 
 .banner__noticias:hover {
   transform: scale(1.1);
-}
-
-/* Grid */
-.grid__tienda {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 2fr;
-}
-
-.gridTienda__hijo {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .boton__main {
@@ -381,7 +390,6 @@ p {
 .nav__lista {
   list-style: none;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 1rem;
@@ -402,12 +410,22 @@ p {
   text-decoration: none;
 }
 
-.nav__itemX {
-  display: none;
-}
-
 .title__tienda {
   text-align: center;
+}
+
+/* Grid */
+.grid__tienda {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 2fr;
+}
+
+.gridTienda__hijo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .div__noticias {
@@ -420,8 +438,11 @@ p {
   border-top: red solid;
   display: flex;
   justify-content: center;
-  flex-direction: row;
   margin: 5px;
+}
+
+.div__contacto {
+  margin: 10px;
 }
 
 /* Cards */

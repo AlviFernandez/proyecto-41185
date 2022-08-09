@@ -1,8 +1,9 @@
-/* Grid */
+
+
 .grid__tienda{
     display: grid;
     grid-template-columns:  repeat(4, 1fr);
-    grid-template-rows:  2fr;
+    grid-template-rows: repeat(2, 2fr);
 }
 
 .gridTienda__hijo{
@@ -11,3 +12,11 @@
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width:599px) {
+    .grid__tienda{
+        display: flex;
+        flex-direction: column;
+    }
+}
+

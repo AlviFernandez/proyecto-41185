@@ -9,11 +9,11 @@
 
     /* Header Mobile */
     .header {
-        background-color: $colorPrincipal;
+        background-color: black;
         color: white;
         top: 0;
         left: 50px;
-        width: 360px;
+        width: 350px;
         right: 200px;
         z-index: 100%;
     }
@@ -33,7 +33,23 @@
 
     /* Footer Mobile */
     footer {
-        width: 360px;
+        width: 350px;
+    }
+
+    .img__main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagen__empresa {
+        border-radius: 200px;
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        border: red solid 2px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     
     /* Nav Mobile */
@@ -45,8 +61,8 @@
         top: 0;
         left: 0;
         z-index: 1000000;
-        width: 100vw;
-        height: 100vh;
+        width: 110vw;
+        height: 110vh;
         display: none;
     }
 
@@ -95,16 +111,16 @@
     }
 
     .div__zapatillasVarias {
+        display: flex;
         flex-direction: column;
+    }
+
+    .div__contacto {
+        margin: 10px;
     }
 
     .menu__icono {
         display: block;
-    }
-
-    .div__zapatillasVarias{
-        display: flex;
-        flex-direction: column;
     }
 
     .tarjeta__absolute1 {
@@ -162,6 +178,16 @@
         right: 8.5rem;
     }
 
+    .banner__noticias {
+        height: 2vh;
+        box-shadow:2px 2px 2px 2px;
+        width: 400px; 
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+
     /* Grid Mobile */
     .grid__tienda {
     display: grid;
@@ -175,7 +201,7 @@
     text-align: center;
     margin: 30px;
     padding: 20px;
-    width: 60%;
+    width: 70%;
     }
 
     .footer__contacto {

@@ -1,0 +1,17 @@
+.title__tienda{
+    text-align: center;
+}
+
+/* Grid */
+.grid__tienda{
+    display: grid;
+    grid-template-columns:  repeat(4, 1fr);
+    grid-template-rows:  2fr;
+}
+
+.gridTienda__hijo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
