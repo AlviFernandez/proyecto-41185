@@ -169,10 +169,6 @@ p {
   footer {
     width: 350px;
   }
-  .img__main {
-    display: flex;
-    flex-direction: column;
-  }
   .imagen__empresa {
     border-radius: 200px;
     width: 100px;
@@ -301,21 +297,15 @@ p {
     display: flex;
     justify-content: center;
   }
-  /* Grid Mobile */
-  .grid__tienda {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(2, 2fr);
-  }
   .form__contacto {
     border: black solid 2px;
     text-align: center;
-    margin: 30px;
+    margin: 70px;
     padding: 20px;
     width: 70%;
   }
   .footer__contacto {
-    margin-top: 60%;
+    margin-top: 100%;
   }
 }
 
@@ -345,7 +335,6 @@ p {
   border: red solid 2px;
   display: flex;
   direction: row;
-  justify-content: center;
 }
 
 .banner__noticias {
@@ -375,16 +364,6 @@ p {
   padding: 1rem 1rem;
   border-radius: 16px;
   position: absolute;
-}
-
-.carousel-item img {
-  height: 1000px;
-}
-
-.carousel-item {
-  width: 200px;
-  height: 200px;
-  border: solid black 2px;
 }
 
 .nav__lista {
@@ -418,7 +397,7 @@ p {
 .grid__tienda {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 2fr;
+  grid-template-rows: 3fr;
 }
 
 .gridTienda__hijo {

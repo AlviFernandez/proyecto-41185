@@ -36,10 +36,10 @@
         width: 350px;
     }
 
-    .img__main {
-        display: flex;
-        flex-direction: column;
-    }
+    // .img__main {
+    //     display: flex;
+    //     flex-direction: column;
+    // }
 
     .imagen__empresa {
         border-radius: 200px;
@@ -186,25 +186,16 @@
         display: flex;
         justify-content: center;
     }
-
-
-    /* Grid Mobile */
-    .grid__tienda {
-    display: grid;
-    grid-template-columns:  repeat(1, 1fr);
-    grid-template-rows: repeat(2, 2fr);
-    }
     
-
     .form__contacto {
     border: black solid 2px;
     text-align: center;
-    margin: 30px;
+    margin: 70px;
     padding: 20px;
     width: 70%;
     }
 
     .footer__contacto {
-        margin-top: 60%;
+        margin-top: 100%;
     }
 }
