@@ -13,7 +13,7 @@
         color: white;
         top: 0;
         left: 50px;
-        width: 350px;
+        width: 100vw;
         right: 200px;
         z-index: 100%;
     }
@@ -31,15 +31,10 @@
     }
 
 
-    /* Footer Mobile */
-    footer {
-        width: 350px;
+    .img__main {
+        display: flex;
+        flex-direction: column;
     }
-
-    // .img__main {
-    //     display: flex;
-    //     flex-direction: column;
-    // }
 
     .imagen__empresa {
         border-radius: 200px;
@@ -193,6 +188,11 @@
     margin: 70px;
     padding: 20px;
     width: 70%;
+    }
+
+     /* Footer Mobile */
+     footer {
+        width: 100vw;
     }
 
     .footer__contacto {

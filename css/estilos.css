@@ -151,7 +151,7 @@ p {
     color: white;
     top: 0;
     left: 50px;
-    width: 350px;
+    width: 100vw;
     right: 200px;
     z-index: 100%;
   }
@@ -165,9 +165,9 @@ p {
     text-align: center;
     color: red;
   }
-  /* Footer Mobile */
-  footer {
-    width: 350px;
+  .img__main {
+    display: flex;
+    flex-direction: column;
   }
   .imagen__empresa {
     border-radius: 200px;
@@ -304,6 +304,10 @@ p {
     padding: 20px;
     width: 70%;
   }
+  /* Footer Mobile */
+  footer {
+    width: 100vw;
+  }
   .footer__contacto {
     margin-top: 100%;
   }
@@ -340,7 +344,7 @@ p {
 .banner__noticias {
   height: 25vh;
   box-shadow: 2px 2px 2px 2px;
-  width: 400px;
+  width: 100vw;
   margin: auto;
   display: flex;
   justify-content: center;
