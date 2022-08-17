@@ -138,6 +138,12 @@ p {
   right: 93rem;
 }
 
+@media screen and (min-width: 599px) {
+  .nav__itemX {
+    display: none;
+  }
+}
+
 /* Mobile */
 @media screen and (max-width: 599px) {
   * {
