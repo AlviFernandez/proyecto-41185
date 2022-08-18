@@ -94,20 +94,20 @@ p {
   align-items: center;
 }
 
-.zapatillasVarias {
+.zapatillasVarias, .h1__zapatillasVarias, .p__zapatillasVarias, .zapatillasVarias1 {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-.h1__zapatillas {
+.h1__zapatillasVarias {
   margin: 20px;
   justify-content: center;
   font-size: 30px;
   font-style: italic;
 }
 
-.p__zapatillas {
+.p__zapatillasVarias {
   font-size: 25px;
 }
 

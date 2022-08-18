@@ -1,3 +1,10 @@
+$estilos: (
+  color: rgb(255, 0, 0) solid,
+  centro: center,
+  5px : 5px
+);
+
+
 .div__noticias {
     margin: 50px;
     display: flex;
@@ -5,10 +12,10 @@
 }
 
 .div__zapatillasVarias {
-    border-top: red solid;
+    border-top: map-get($estilos, color);
     display: flex;
-    justify-content: center;
-    margin: 5px;
+    justify-content: map-get($estilos, centro);
+    margin: map-get($estilos, 5px);
 }
 
 .div__contacto {

@@ -4,18 +4,21 @@
     flex-direction: column;
 }
 
-.h1__zapatillas {
+.h1__zapatillasVarias {
+    @extend .zapatillasVarias;
     margin: 20px;
     justify-content: center;
     font-size: 30px;
     font-style: italic;
 }
 
-.p__zapatillas {
+.p__zapatillasVarias {
+    @extend .zapatillasVarias;
     font-size: 25px;
 }
 
 .zapatillasVarias1 {
+    @extend .zapatillasVarias;
     display: flex;
     justify-content: center;
 }
