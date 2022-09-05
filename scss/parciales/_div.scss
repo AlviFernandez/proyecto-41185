@@ -18,6 +18,25 @@ $estilos: (
     margin: map-get($estilos, 5px);
 }
 
-.div__contacto {
-    margin: 10px;
+.div_sucursales {
+  border: 2px solid;
+  background-color: black;
+  margin-top: 10vw;
+  height: 20vw;
+  width: 100%;
+  margin-right: 50px;
+}
+
+.div_empresa{
+  border: 2px solid;
+  background-color: black;
+  margin-top: 10vw;
+  height: 20.5vw;
+  width: 100%;
+  margin-right: 50px;
+}
+
+.div_iframe {
+  width: 20%;
+  height: 50%;
 }

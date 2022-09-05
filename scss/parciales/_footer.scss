@@ -8,7 +8,19 @@
     background-color: black;
     border-top: red solid 2px;
     height: 18vh;
-    margin-top: 300px;
+    margin-top: 50px;
+}
+.footer__empresa {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around	;
+    color: rgb(160, 158, 158);
+    text-align: center;
+    background-color: black;
+    border-top: red solid 2px;
+    height: 18vh;
+    margin-top: 270vh;
 }
 
 .footer__item {

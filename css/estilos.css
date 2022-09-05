@@ -24,7 +24,7 @@ p {
   color: white;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   z-index: 100%;
   display: flex;
   flex-direction: row;
@@ -50,6 +50,19 @@ p {
   height: 100px;
   margin: 10px;
   border: red solid 2px;
+  animation: float2 5s ease-in-out infinite;
+}
+
+@keyframes float2 {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(10px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
 }
 
 .footer {
@@ -62,7 +75,20 @@ p {
   background-color: black;
   border-top: red solid 2px;
   height: 18vh;
-  margin-top: 300px;
+  margin-top: 50px;
+}
+
+.footer__empresa {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around;
+  color: #a09e9e;
+  text-align: center;
+  background-color: black;
+  border-top: red solid 2px;
+  height: 18vh;
+  margin-top: 270vh;
 }
 
 .footer__item {
@@ -85,13 +111,27 @@ p {
   text-align: center;
   margin: 30px;
   padding: 20px;
-  width: 50%;
+  width: 25%;
 }
 
 .main__contacto {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.div__contacto {
+  margin: 10px;
+}
+
+.input__contacto {
+  height: 30px;
+  width: 400px;
+}
+
+.comentario__contacto {
+  height: 100px;
+  width: 400px;
 }
 
 .zapatillasVarias, .h1__zapatillasVarias, .p__zapatillasVarias, .zapatillasVarias1 {
@@ -242,8 +282,21 @@ p {
   .div__contacto {
     margin: 10px;
   }
+  .div_empresa {
+    border: 2px solid;
+    background-color: black;
+    margin-top: 10vw;
+    height: 50vh;
+    width: 100%;
+    margin-right: 50px;
+  }
   .menu__icono {
     display: block;
+  }
+  iframe {
+    height: 60vh;
+    width: 50vh;
+    margin-top: 10%;
   }
   .tarjeta__absolute1 {
     background-color: #60f603;
@@ -303,16 +356,35 @@ p {
     display: flex;
     justify-content: center;
   }
+  .nuestras_sucursales {
+    width: 10%;
+    height: 220px;
+  }
+  .input__contacto {
+    width: 120%;
+  }
+  .comentario__contacto {
+    width: 120%;
+  }
   .form__contacto {
     border: black solid 2px;
     text-align: center;
     margin: 70px;
     padding: 20px;
-    width: 70%;
+    width: 120vh;
   }
   /* Footer Mobile */
-  footer {
-    width: 100vw;
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    color: #a09e9e;
+    text-align: center;
+    background-color: black;
+    border-top: red solid 2px;
+    height: 18vh;
+    margin-top: 25vh;
   }
   .footer__contacto {
     margin-top: 100%;
@@ -343,8 +415,6 @@ p {
   height: 100px;
   margin: 10px;
   border: red solid 2px;
-  display: flex;
-  direction: row;
 }
 
 .banner__noticias {
@@ -430,8 +500,27 @@ p {
   margin: 5px;
 }
 
-.div__contacto {
-  margin: 10px;
+.div_sucursales {
+  border: 2px solid;
+  background-color: black;
+  margin-top: 10vw;
+  height: 20vw;
+  width: 100%;
+  margin-right: 50px;
+}
+
+.div_empresa {
+  border: 2px solid;
+  background-color: black;
+  margin-top: 10vw;
+  height: 20.5vw;
+  width: 100%;
+  margin-right: 50px;
+}
+
+.div_iframe {
+  width: 20%;
+  height: 50%;
 }
 
 /* Cards */
@@ -442,4 +531,34 @@ p {
 
 .card:hover {
   transform: scale(1.1);
+}
+
+.h2_sucursales {
+  color: red;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.h3_sucursales {
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-style: italic;
+  font-size: 3vh;
+  color: white;
+}
+
+.nuestras_sucursales {
+  background-color: black;
+  width: 100%;
+}
+
+iframe {
+  width: 30%;
+  margin-right: 50vh;
+  height: 70%;
 }

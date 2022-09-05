@@ -3,7 +3,7 @@
     color: white;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 100%;
     z-index: 100%;
     display: flex;
     flex-direction: row;
@@ -29,4 +29,17 @@
     height: 100px;
     margin: 10px;
     border: red solid 2px;
+    animation: float2 5s ease-in-out infinite;
 }
+
+@keyframes float2 {
+    0% {
+      transform: translatey(0px);
+    }
+    50% {
+      transform: translatey(10px);
+    }
+    100% {
+      transform: translatey(0px);
+    }
+  }

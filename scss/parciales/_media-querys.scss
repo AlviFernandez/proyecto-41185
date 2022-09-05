@@ -121,8 +121,23 @@
         margin: 10px;
     }
 
+    .div_empresa {
+            border: 2px solid;
+            background-color: black;
+            margin-top: 10vw;
+            height: 50vh;
+            width: 100%;
+            margin-right: 50px;
+    }
+
     .menu__icono {
         display: block;
+    }
+
+    iframe {
+        height: 60vh;
+        width: 50vh;
+        margin-top: 10%;
     }
 
     .tarjeta__absolute1 {
@@ -188,18 +203,40 @@
         display: flex;
         justify-content: center;
     }
-    
+
+    .nuestras_sucursales {
+        width: 10%;
+        height: 220px;
+    }
+
+    .input__contacto {
+        width: 120%;
+    }
+
+    .comentario__contacto{
+        width: 120%;
+    }
+
     .form__contacto {
     border: black solid 2px;
     text-align: center;
     margin: 70px;
     padding: 20px;
-    width: 70%;
+    width: 120vh;
     }
 
      /* Footer Mobile */
-     footer {
-        width: 100vw;
+     .footer {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-around	;
+        color: rgb(160, 158, 158);
+        text-align: center;
+        background-color: black;
+        border-top: red solid 2px;
+        height: 18vh;
+        margin-top: 25vh;
     }
 
     .footer__contacto {

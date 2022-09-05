@@ -3,11 +3,25 @@
     text-align: center;
     margin: 30px;
     padding: 20px;
-    width: 50%;
+    width: 25%;
 }
 
 .main__contacto {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.div__contacto {
+    margin: 10px;
+}
+
+.input__contacto {
+    height: 30px;
+    width: 400px;
+}
+
+.comentario__contacto {
+    height: 100px;
+    width: 400px;
 }
